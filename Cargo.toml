@@ -21,6 +21,11 @@ members = [
 
 [workspace.dependencies]
 math = { path = "libs/math"}
+solana-sdk = "1.6.20"
+solana-program-test = "1.16.20"
+anchor-lang = "0.28.0"
+anchor-spl = "0.28.0"
+anyhow = "1"
 
 [profile.release]
 overflow-checks = true
